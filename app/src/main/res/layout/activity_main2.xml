@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <EditText
+               android:id="@+id/url"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/url"
+               android:text="http://192.168.24.89:4000/"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/api"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/hint_api"
+               android:text="API-KIOSK-PW"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/ref_transaction"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/ref_transaction"
+               android:text="00038TYA1643201801171147496"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/tmx_ref_transaction"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/tmx_ref_transaction"
+               android:text="UNKNOWN"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/time_kiosk"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/time_kiosk_id_unique"
+               android:text="00038TYA1643_2018-01-17 11:47:96"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/serial_number"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/serial_number"
+               android:text="00038TYA1643"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/true_wallet_id"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/true_wallet_id"
+               android:text="1999999991"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/time_stamp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/time_stamp"
+               android:text="2018-01-17 11:47:22"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/search_value"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/search_value"
+               android:text="0911111111"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/agent_balance_after_process"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/agent_balance_after_process"
+               android:text="9999.00"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/phone_no"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/phone_no"
+               android:text="0911111111"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/ref1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/ref1"
+               android:text="0"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/credit_customer_after_process"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/credit_customer_after_process"
+               android:text="7.00"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/response_code"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/response_code"
+               android:text="0"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/response_msg"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/response_msg"
+               android:text="Success"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/response_dev_msg"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/response_dev_msg"
+               android:text="TMX Gateway success"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/fw_version"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/fw_version"
+               android:text="1.0"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <EditText
+               android:id="@+id/ip_address"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/ip_address"
+               android:text="172.00.0.08"
+               android:textAlignment="center"
+               android:textSize="8sp" />
+
+           <Button
+               android:id="@+id/submit"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/colorPrimaryDark"
+               android:textColor="@android:color/white"
+               android:text="@string/action_submit"/>
+           <TextView
+               android:id="@+id/tv_res"
+               android:visibility="gone"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+       </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

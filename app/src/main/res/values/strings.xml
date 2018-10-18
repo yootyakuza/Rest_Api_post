@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Rest_Api</string>
+    <string name="title_enter_post">Enter Post</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_body">body</string>
+    <string name="action_submit">SUBMIT</string>
+    <string name="hint_api">api</string>
+    <string name="ref_transaction">k_ref_transaction</string>
+    <string name="url">url</string>
+    <string name="tmx_ref_transaction">tmx_ref_transaction</string>
+    <string name="time_kiosk_id_unique">time_kiosk_id_unique</string>
+    <string name="serial_number">serial_number</string>
+    <string name="true_wallet_id">true_wallet_id</string>
+    <string name="time_stamp">time_stamp</string>
+    <string name="search_value">search_value</string>
+    <string name="agent_balance_after_process">agent_balance_after_process</string>
+    <string name="phone_no">phone_no</string>
+    <string name="ref1">ref1</string>
+    <string name="credit_customer_after_process">credit_customer_after_process</string>
+    <string name="response_code">response_code</string>
+    <string name="response_msg">response_msg</string>
+    <string name="response_dev_msg">response_dev_msg</string>
+    <string name="fw_version">fw_version</string>
+    <string name="ip_address">ip_address</string>
+    <string name="go_activity_2">Go Activity 2</string>
+</resources>
